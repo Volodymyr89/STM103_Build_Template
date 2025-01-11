@@ -119,7 +119,6 @@ C_INCLUDES =  \
 -IDrivers/STM32F1xx_HAL_Driver/Inc/Legacy \
 -IDrivers/CMSIS/Device/ST/STM32F1xx/Include \
 -IDrivers/CMSIS/Include\ \
--Ilib/Custom_Printf_Lib/inc \
 -IDrivers/CMSIS/Include
 
 
