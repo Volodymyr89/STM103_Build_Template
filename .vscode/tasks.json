@@ -1,0 +1,23 @@
+{
+    "version": "2.0.0",
+    "tasks": [
+        {
+            "label": "Flash_STM32F103",
+            "type": "shell",
+            "command": "ST-LINK_CLI.exe",
+            "args": [
+                "-c",
+                "-P",
+                "./build/Generated.hex",
+                "0x08000000",
+                "-Rst",
+                "-Run"
+            ],
+            "group": {
+                "kind": "build",
+                "isDefault": true
+            },
+            "problemMatcher": []
+        }
+    ]
+}
