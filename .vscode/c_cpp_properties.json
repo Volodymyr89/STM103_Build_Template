@@ -14,8 +14,7 @@
             ],
             "configurationProvider": "ms-vscode.makefile-tools",
             "intelliSenseMode": "${default}",
-            "cStandard": "c11",
-            "compilerPath": "C:/mingw64/bin/gcc.exe"
+            "cStandard": "c11"
         }
     ],
     "version": 4
